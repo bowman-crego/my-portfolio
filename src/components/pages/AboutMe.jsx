@@ -1,16 +1,11 @@
-
+import Header from "../Header";
 
 function AboutMe() {
+	return (
+		<div className='pg-4'>
+			<Header />
+		</div>
+	);
+}
 
-    return (
-      <div className="pg-4">
-        <Header />
-        <h1>About Me</h1>
-        <p>
-        </p>
-      </div>
-    );
-  }
-
-  export default AboutMe;
-  
+export default AboutMe;

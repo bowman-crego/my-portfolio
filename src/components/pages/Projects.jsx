@@ -1,13 +1,13 @@
-function Projects() {
-    return (
-      <div>
-        <h1>Projects</h1>
-        <p>
-        </p>
-      </div>
-     
-    );
-  }
+import Header from "../Header";
 
-  export default Projects;
-  
+function Projects() {
+	return (
+		<div>
+			<Header />
+			<h1>Projects</h1>
+			<p></p>
+		</div>
+	);
+}
+
+export default Projects;
