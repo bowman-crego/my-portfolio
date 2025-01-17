@@ -1,11 +1,11 @@
 import Header from "../Header";
-
+import Footer from "../Footer";
 function Projects() {
 	return (
 		<div>
 			<Header />
-			<h1>Projects</h1>
-			<p></p>
+
+			<Footer />
 		</div>
 	);
 }

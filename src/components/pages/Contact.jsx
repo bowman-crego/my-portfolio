@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "../Header";
 import Modal from "../Modal";
+import Footer from "../Footer";
 
 function Contact() {
 	const [showModal, setShowModal] = useState(false);
@@ -17,11 +18,12 @@ function Contact() {
 				<p>If you like what you see and want to have a chat, feel free to reach out to me!</p>
 			</div>
 			<div className='flex flex-col items-center justify-center'>
-				<button onClick={toggleModal} className='mt-4 bg-black text-white px-4 py-2 rounded'>
+				<button onClick={toggleModal} className='mt-4 p-8 bg-black text-white px-4 py-2 rounded'>
 					Contact
 				</button>
 			</div>
 			<Modal show={showModal} onClose={toggleModal} />
+			<Footer />
 		</div>
 	);
 }
