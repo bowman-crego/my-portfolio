@@ -8,7 +8,7 @@ function AboutMe() {
 			<div className='pg-4'>
 				<Header />
 			</div>
-			<div className='flex-grow border-8 border-sky-500 p-4 font-semibold bg-cover bg-center w-full'>
+			<div className='flex-grow p-4 font-semibold bg-cover bg-center w-full'>
 				<div className='grid grid-cols-1 md:grid-cols-2'>
 					<section className='text-balance p-4 w-full md:w-1/2'>
 						<h1 className='text-lg font-bold'>My Story</h1>
